@@ -1,5 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -13,7 +14,7 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirenction();
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
