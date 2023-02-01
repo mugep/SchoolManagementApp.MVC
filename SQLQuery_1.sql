@@ -21,3 +21,4 @@ CREATE TABLE Courses (
     Code NVARCHAR(5) UNIQUE,
     Credits int
 )
+
